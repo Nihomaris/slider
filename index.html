@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Слайдер</title>
+	<!-- jQuery library (served from Google) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="build/bxslider/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="build/bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="build/style.css">
+</head>
+<body>
+	<article class="widget">
+		<header class="widget__header">Это может вам понравиться</header>
+		<div class="bxslider widget__slider">
+			<div>
+				<div class="widget__group">
+					<a class="product" href="#">
+						<div class="product__img product__img_0"></div>
+						<p class="product__brand">Pilgrim</p>
+						<p class="product__name">Чехол для багажа</p>
+						<div class="product__wrapper">
+							<p class="product__old-price"></p>
+							<p class="product__price">1 400 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+					<a class="product" href="#">
+						<div class="product__img product__img_1"></div>
+						<p class="product__brand">Lacoste</p>
+						<p class="product__name">Клатч</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">3 780 р.</p>
+							<p class="product__price">2 268 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+					<a class="product" href="#">
+						<div class="product__img product__img_2"></div>
+						<p class="product__brand">DKNY</p>
+						<p class="product__name">Сумка</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">10 580 р.</p>
+							<p class="product__price">8 464 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="widget__group">
+					<a class="product" href="#">
+						<div class="product__img product__img_3"></div>
+						<p class="product__brand">Marina Creazioni</p>
+						<p class="product__name">Сумка</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">9 480 р.</p>
+							<p class="product__price">5 688 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+					<a class="product" href="#">
+						<div class="product__img product__img_4"></div>
+						<p class="product__brand">Bodenschatz</p>
+						<p class="product__name">Обложка для автодокументов</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">1 480 р.</p>
+							<p class="product__price">740 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+					<a class="product" href="#">
+						<div class="product__img product__img_5"></div>
+						<p class="product__brand">Bodenschatz</p>
+						<p class="product__name">Обложка для паспорта</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">1 380 р.</p>
+							<p class="product__price">828 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="widget__group">
+					<a class="product" href="#">
+						<div class="product__img product__img_6"></div>
+						<p class="product__brand">Pilgrim</p>
+						<p class="product__name">Чехол для багажа</p>
+						<div class="product__wrapper">
+							<p class="product__old-price">1 500 р.</p>
+							<p class="product__price">1 400 р.</p>
+							<div class="product__stars">
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<footer class="widget__footer">Что в данный момент покупают другие?</footer>
+	</article>
+	<script>
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+	  	speed:1100
+	  });
+	});
+	</script>
+</body>
+</html>
